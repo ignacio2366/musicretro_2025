@@ -1,10 +1,10 @@
 #root {
   max-width: 1550px;
   margin: 0 auto;
-  padding: 0;
+  padding: 16px;
   box-sizing: content-box;
-  background-color: #ffffff;
-  font-family: "Arial" sans-serif;
+  background-color: var(--cherry);
+  font-family: Arial;
 }
 
 .flex-col-center {

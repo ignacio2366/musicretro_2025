@@ -3,5 +3,12 @@
   margin: 0;
   height: auto;
   box-sizing: content-box;
-  background-color: black;
+  background-color: var(--dark);
+
+  --cherry: #ff4762;
+  --white: #ffffff;
+  --dark: #212d3c;
+  --backgroundcherry: #fcedf1;
+  --gray: #616b7d;
+  --ash: #dddddd;
 }

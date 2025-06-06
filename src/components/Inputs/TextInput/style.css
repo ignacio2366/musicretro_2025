@@ -1,0 +1,10 @@
+.input-email {
+  height: 40px;
+  background-color: var(--white);
+  color: var(--dark);
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid var(--cherry);
+  padding-left: 8px;
+  border-radius: 8px;
+}
