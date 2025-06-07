@@ -1,322 +1,36 @@
-import { ChartArtistTypes } from "../models/chart.artists";
+import { ArtistsTypes } from "../models/artists.models";
 
-export const mock: ChartArtistTypes = {
-    "message": {
-        "header": {
-            "status_code": 200,
-            "execute_time": 0.009958028793335
+export const mock: ArtistsTypes = {
+    "artists": [
+        {
+            "artist_id": 47114538,
+            "artist_name": "ENHYPEN",
+            "artist_country": "",
+            "artist_rating": 70
         },
-        "body": {
-            "artist_list": [
-                {
-                    "artist": {
-                        "artist_id": 47114538,
-                        "artist_name": "ENHYPEN",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "",
-                        "artist_alias_list": [],
-                        "artist_rating": 70,
-                        "artist_twitter_url": "",
-                        "artist_credits": {
-                            "artist_list": []
-                        },
-                        "restricted": 0,
-                        "updated_time": "2023-08-21T08:55:46Z",
-                        "begin_date_year": "",
-                        "begin_date": "0000-00-00",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                },
-                {
-                    "artist": {
-                        "artist_id": 45889017,
-                        "artist_name": "RAIN",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "",
-                        "artist_alias_list": [],
-                        "artist_rating": 38,
-                        "artist_twitter_url": "",
-                        "artist_credits": {
-                            "artist_list": []
-                        },
-                        "restricted": 0,
-                        "updated_time": "2020-07-09T10:49:16Z",
-                        "begin_date_year": "",
-                        "begin_date": "0000-00-00",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                },
-                {
-                    "artist": {
-                        "artist_id": 57658152,
-                        "artist_name": "JIN",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "",
-                        "artist_alias_list": [],
-                        "artist_rating": 66,
-                        "artist_twitter_url": "",
-                        "artist_credits": {
-                            "artist_list": []
-                        },
-                        "restricted": 0,
-                        "updated_time": "2023-11-05T21:43:53Z",
-                        "begin_date_year": "",
-                        "begin_date": "0000-00-00",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                },
-                {
-                    "artist": {
-                        "artist_id": 37084397,
-                        "artist_name": "SB19",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "",
-                        "artist_alias_list": [],
-                        "artist_rating": 42,
-                        "artist_twitter_url": "https:\/\/twitter.com\/SB19Official?s=20",
-                        "artist_credits": {
-                            "artist_list": []
-                        },
-                        "restricted": 0,
-                        "updated_time": "2025-02-27T18:14:28Z",
-                        "begin_date_year": "2018",
-                        "begin_date": "2018-00-00",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                },
-                {
-                    "artist": {
-                        "artist_id": 255645,
-                        "artist_name": "Jed Madela",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "PH",
-                        "artist_alias_list": [],
-                        "artist_rating": 24,
-                        "artist_twitter_url": "",
-                        "artist_credits": {
-                            "artist_list": []
-                        },
-                        "restricted": 0,
-                        "updated_time": "2017-12-17T09:34:29Z",
-                        "begin_date_year": "1977",
-                        "begin_date": "1977-08-14",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                },
-                {
-                    "artist": {
-                        "artist_id": 49581672,
-                        "artist_name": "Ed Sheeran",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "",
-                        "artist_alias_list": [
-                            {
-                                "artist_alias": "\u30a8\u30c9 \u30b7\u30fc\u30e9\u30f3"
-                            },
-                            {
-                                "artist_alias": "ai de xi lan"
-                            },
-                            {
-                                "artist_alias": "Ed shiran"
-                            },
-                            {
-                                "artist_alias": "Ed Sheeran"
-                            },
-                            {
-                                "artist_alias": "xue qie"
-                            },
-                            {
-                                "artist_alias": "shi Aba"
-                            },
-                            {
-                                "artist_alias": "GRABOTE"
-                            }
-                        ],
-                        "artist_rating": 86,
-                        "artist_twitter_url": "https:\/\/twitter.com\/edsheeran",
-                        "artist_credits": {
-                            "artist_list": []
-                        },
-                        "restricted": 0,
-                        "updated_time": "2023-09-29T07:34:36Z",
-                        "begin_date_year": "",
-                        "begin_date": "0000-00-00",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                },
-                {
-                    "artist": {
-                        "artist_id": 65395545,
-                        "artist_name": "Eminem",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "",
-                        "artist_alias_list": [
-                            {
-                                "artist_alias": "\u3048\u307f\u306d\u3080"
-                            },
-                            {
-                                "artist_alias": "Ominem"
-                            },
-                            {
-                                "artist_alias": "The Real Slim Shady"
-                            },
-                            {
-                                "artist_alias": "Mine"
-                            },
-                            {
-                                "artist_alias": "TONEY.L"
-                            }
-                        ],
-                        "artist_rating": 69,
-                        "artist_twitter_url": "https:\/\/twitter.com\/eminem",
-                        "artist_credits": {
-                            "artist_list": []
-                        },
-                        "restricted": 0,
-                        "updated_time": "2025-05-07T23:34:23Z",
-                        "begin_date_year": "",
-                        "begin_date": "0000-00-00",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                },
-                {
-                    "artist": {
-                        "artist_id": 67565776,
-                        "artist_name": "James Reid feat. TJ Monterde",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "",
-                        "artist_alias_list": [],
-                        "artist_rating": 1,
-                        "artist_twitter_url": "",
-                        "artist_credits": {
-                            "artist_list": [
-                                {
-                                    "artist": {
-                                        "artist_id": 24444103,
-                                        "artist_name": "James Reid",
-                                        "artist_name_translation_list": [],
-                                        "artist_comment": "",
-                                        "artist_country": "",
-                                        "artist_alias_list": [
-                                            {
-                                                "artist_alias": "\u3058\u3047\u3044\u3080\u3059\u308a\u30fc\u3069 \u3058\u30fc\u3056\u3059\u3042\u3093\u3069\u3081\u308a\u30fc\u3061\u3047\u3044\u3093"
-                                            }
-                                        ],
-                                        "artist_rating": 26,
-                                        "artist_twitter_url": "",
-                                        "artist_credits": {
-                                            "artist_list": []
-                                        },
-                                        "restricted": 0,
-                                        "updated_time": "2014-01-10T09:15:07Z",
-                                        "begin_date_year": "",
-                                        "begin_date": "0000-00-00",
-                                        "end_date_year": "",
-                                        "end_date": "0000-00-00"
-                                    }
-                                },
-                                {
-                                    "artist": {
-                                        "artist_id": 53235619,
-                                        "artist_name": "Tj Monterde",
-                                        "artist_name_translation_list": [],
-                                        "artist_comment": "",
-                                        "artist_country": "",
-                                        "artist_alias_list": [],
-                                        "artist_rating": 41,
-                                        "artist_twitter_url": "tjmusicmonterde",
-                                        "artist_credits": {
-                                            "artist_list": []
-                                        },
-                                        "restricted": 0,
-                                        "updated_time": "2022-04-25T11:23:58Z",
-                                        "begin_date_year": "",
-                                        "begin_date": "0000-00-00",
-                                        "end_date_year": "",
-                                        "end_date": "0000-00-00"
-                                    }
-                                }
-                            ]
-                        },
-                        "restricted": 0,
-                        "updated_time": "2025-06-06T00:13:59Z",
-                        "begin_date_year": "",
-                        "begin_date": "0000-00-00",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                },
-                {
-                    "artist": {
-                        "artist_id": 31899946,
-                        "artist_name": "SEVENTEEN",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "",
-                        "artist_alias_list": [
-                            {
-                                "artist_alias": "\u30bb\u30d6\u30f3\u30c6\u30a3\u30fc\u30f3"
-                            },
-                            {
-                                "artist_alias": "SEVENTEEN"
-                            },
-                            {
-                                "artist_alias": "Hyan zi xuan"
-                            },
-                            {
-                                "artist_alias": "EK0"
-                            }
-                        ],
-                        "artist_rating": 70,
-                        "artist_twitter_url": "",
-                        "artist_credits": {
-                            "artist_list": []
-                        },
-                        "restricted": 0,
-                        "updated_time": "2020-09-24T16:23:34Z",
-                        "begin_date_year": "",
-                        "begin_date": "0000-00-00",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                },
-                {
-                    "artist": {
-                        "artist_id": 54612195,
-                        "artist_name": "Cup of Joe",
-                        "artist_name_translation_list": [],
-                        "artist_comment": "",
-                        "artist_country": "",
-                        "artist_alias_list": [],
-                        "artist_rating": 48,
-                        "artist_twitter_url": "",
-                        "artist_credits": {
-                            "artist_list": []
-                        },
-                        "restricted": 0,
-                        "updated_time": "2022-08-23T08:52:31Z",
-                        "begin_date_year": "",
-                        "begin_date": "0000-00-00",
-                        "end_date_year": "",
-                        "end_date": "0000-00-00"
-                    }
-                }
-            ]
+        {
+            "artist_id": 37084397,
+            "artist_name": "SB19",
+            "artist_country": "",
+            "artist_rating": 42
+        },
+        {
+            "artist_id": 39226618,
+            "artist_name": "Dionela",
+            "artist_country": "",
+            "artist_rating": 40
+        },
+        {
+            "artist_id": 33491593,
+            "artist_name": "Dua Lipa",
+            "artist_country": "",
+            "artist_rating": 81
+        },
+        {
+            "artist_id": 626,
+            "artist_name": "AC/DC",
+            "artist_country": "AU",
+            "artist_rating": 83
         }
-    }
+    ]
 }

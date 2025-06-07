@@ -5,6 +5,6 @@ export interface Artist {
     artist_rating: number;
 }
 
-export interface ArtistsResponse {
+export interface ArtistsTypes {
     artists: Artist[];
 }
