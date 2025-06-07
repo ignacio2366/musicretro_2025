@@ -4,6 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "https://api.musixmatch.com/ws/1.1/chart.artists.get",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

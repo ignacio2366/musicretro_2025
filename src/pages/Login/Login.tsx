@@ -1,8 +1,9 @@
 import { Container } from "@mui/material";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Login.style.css";
 import TextInput from "../../components/Inputs/TextInput/TextInput";
 import BtnSubmit from "../../components/Button/BtnSubmit";
+import { MusixServices } from "../../api/musix.services";
 
 function Login() {
   const [formData, setFormData] = useState({
@@ -20,8 +21,20 @@ function Login() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form submitted", formData);
+    console.log("Form submitted with data:", formData);
   };
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await MusixServices.getTopMusixArtists();
+        console.log("Fetched data:", response);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+    fetchData();
+  }, []);
   return (
     <>
       <Container className="container">
