@@ -1,11 +1,15 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Artist } from "../../models/artists.models";
 import "./Cards.style.css";
 import { AlbumTypes } from "../../models/album.models";
 import { MusixServices } from "../../api/musix.services";
+import { useNavigate } from "react-router-dom";
 const Card = ({ ...props }: Artist) => {
   const [data, setData] = useState<AlbumTypes>();
-
+  const navigate = useNavigate();
+  const onNavigate = useCallback((albumid: number) => {
+    navigate(`/track/${albumid}`);
+  }, []);
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -37,7 +41,12 @@ const Card = ({ ...props }: Artist) => {
               <div className="card-content" key={index}>
                 <p>{items?.album_name}</p>
                 <p>{items?.album_release_date}</p>
-                <p>Go</p>
+                <p
+                  style={{ cursor: "pointer" }}
+                  onClick={() => onNavigate(items?.album_id)}
+                >
+                  CLICK
+                </p>
               </div>
             ))}
           </section>

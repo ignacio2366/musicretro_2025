@@ -1,121 +1,31 @@
 {
-    "message": {
-        "header": {
-            "status_code": 200,
-            "execute_time": 0.0091640949249268,
-            "available": 6
+    "track_list": [
+        {
+            "track_id": 206170596,
+            "track_name": "Intro : Walk the Line",
+            "commontrack_id": 118903563,
+            "album_id": 41206568,
+            "album_name": "BORDER : DAY ONE",
+            "artist_id": 47114538,
+            "artist_name": "ENHYPEN"
         },
-        "body": {
-            "track_list": [
-                {
-                    "track": {
-                        "track_id": 206170596,
-                        "track_name": "Intro : Walk the Line",
-                        "track_name_translation_list": [],
-                        "track_rating": 55,
-                        "commontrack_id": 118903563,
-                        "instrumental": 0,
-                        "explicit": 0,
-                        "has_lyrics": 1,
-                        "has_subtitles": 1,
-                        "has_richsync": 1,
-                        "num_favourite": 16,
-                        "album_id": 41206568,
-                        "album_name": "BORDER : DAY ONE",
-                        "artist_id": 47114538,
-                        "artist_name": "ENHYPEN",
-                        "track_share_url": "https:\/\/www.musixmatch.com\/lyrics\/ENHYPEN\/Intro-Walk-the-Line?utm_source=application&utm_campaign=api&utm_medium=Conpago%3A1409622752004",
-                        "track_edit_url": "https:\/\/www.musixmatch.com\/lyrics\/ENHYPEN\/Intro-Walk-the-Line\/edit?utm_source=application&utm_campaign=api&utm_medium=Conpago%3A1409622752004",
-                        "restricted": 0,
-                        "updated_time": "2022-03-18T05:30:55Z",
-                        "primary_genres": {
-                            "music_genre_list": [
-                                {
-                                    "music_genre": {
-                                        "music_genre_id": 14,
-                                        "music_genre_parent_id": 34,
-                                        "music_genre_name": "Pop",
-                                        "music_genre_name_extended": "Pop",
-                                        "music_genre_vanity": "Pop"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                {
-                    "track": {
-                        "track_id": 206170597,
-                        "track_name": "Given-Taken",
-                        "track_name_translation_list": [],
-                        "track_rating": 63,
-                        "commontrack_id": 118903564,
-                        "instrumental": 0,
-                        "explicit": 0,
-                        "has_lyrics": 1,
-                        "has_subtitles": 1,
-                        "has_richsync": 1,
-                        "num_favourite": 190,
-                        "album_id": 41206568,
-                        "album_name": "BORDER : DAY ONE",
-                        "artist_id": 47114538,
-                        "artist_name": "ENHYPEN",
-                        "track_share_url": "https:\/\/www.musixmatch.com\/lyrics\/ENHYPEN\/Given-Taken?utm_source=application&utm_campaign=api&utm_medium=Conpago%3A1409622752004",
-                        "track_edit_url": "https:\/\/www.musixmatch.com\/lyrics\/ENHYPEN\/Given-Taken\/edit?utm_source=application&utm_campaign=api&utm_medium=Conpago%3A1409622752004",
-                        "restricted": 0,
-                        "updated_time": "2021-01-20T00:07:01Z",
-                        "primary_genres": {
-                            "music_genre_list": [
-                                {
-                                    "music_genre": {
-                                        "music_genre_id": 14,
-                                        "music_genre_parent_id": 34,
-                                        "music_genre_name": "Pop",
-                                        "music_genre_name_extended": "Pop",
-                                        "music_genre_vanity": "Pop"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                },
-                {
-                    "track": {
-                        "track_id": 206170598,
-                        "track_name": "Let Me In (20 CUBE)",
-                        "track_name_translation_list": [],
-                        "track_rating": 62,
-                        "commontrack_id": 118903565,
-                        "instrumental": 0,
-                        "explicit": 0,
-                        "has_lyrics": 1,
-                        "has_subtitles": 1,
-                        "has_richsync": 1,
-                        "num_favourite": 95,
-                        "album_id": 41206568,
-                        "album_name": "BORDER : DAY ONE",
-                        "artist_id": 47114538,
-                        "artist_name": "ENHYPEN",
-                        "track_share_url": "https:\/\/www.musixmatch.com\/lyrics\/ENHYPEN\/Let-Me-In-20-CUBE?utm_source=application&utm_campaign=api&utm_medium=Conpago%3A1409622752004",
-                        "track_edit_url": "https:\/\/www.musixmatch.com\/lyrics\/ENHYPEN\/Let-Me-In-20-CUBE\/edit?utm_source=application&utm_campaign=api&utm_medium=Conpago%3A1409622752004",
-                        "restricted": 0,
-                        "updated_time": "2021-07-13T21:02:57Z",
-                        "primary_genres": {
-                            "music_genre_list": [
-                                {
-                                    "music_genre": {
-                                        "music_genre_id": 14,
-                                        "music_genre_parent_id": 34,
-                                        "music_genre_name": "Pop",
-                                        "music_genre_name_extended": "Pop",
-                                        "music_genre_vanity": "Pop"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                }
-            ]
+        {
+            "track_id": 206170597,
+            "track_name": "Given-Taken",
+            "commontrack_id": 118903564,
+            "album_id": 41206568,
+            "album_name": "BORDER : DAY ONE",
+            "artist_id": 47114538,
+            "artist_name": "ENHYPEN"
+        },
+        {
+            "track_id": 206170598,
+            "track_name": "Let Me In (20 CUBE)",
+            "commontrack_id": 118903565,
+            "album_id": 41206568,
+            "album_name": "BORDER : DAY ONE",
+            "artist_id": 47114538,
+            "artist_name": "ENHYPEN"
         }
-    }
+    ]
 }

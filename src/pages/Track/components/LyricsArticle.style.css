@@ -1,0 +1,59 @@
+.header-title {
+  text-align: left;
+  font-size: 2.75rem;
+  font-weight: 900;
+  color: var(--white);
+  align-self: center;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--white);
+  text-align: start;
+  align-self: flex-start;
+}
+.tracks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+}
+.section-content {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 16px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.track-card {
+  display: flex;
+  width: 350px;
+  max-width: 350px;
+  height: auto;
+  min-height: 200px;
+  flex-direction: column;
+  align-items: start;
+  padding: 16px;
+  border-radius: 18px;
+  background-color: var(--cherry);
+}
+.track-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0%;
+  margin: 0;
+  color: var(--white);
+  text-align: center;
+  align-self: center;
+}
+.article-lyrics {
+  margin-top: 24px;
+  color: var(--white);
+}

@@ -1,12 +1,13 @@
 import { Container } from "@mui/material";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./Login.style.css";
 import TextInput from "../../components/Inputs/TextInput/TextInput";
 import BtnSubmit from "../../components/Button/BtnSubmit";
-import { MusixServices } from "../../api/musix.services";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
-  const [formData, setFormData] = useState({
+  const navigate = useNavigate();
+  const [, setFormData] = useState({
     email: "",
     password: "",
   });
@@ -21,20 +22,8 @@ function Login() {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form submitted with data:", formData);
+    navigate(`/dashboard`);
   };
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await MusixServices.getTopMusixArtists();
-        console.log("Fetched data:", response);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-    fetchData();
-  }, []);
   return (
     <>
       <Container className="container">
@@ -57,6 +46,10 @@ function Login() {
             required
           />
           <BtnSubmit label="Login" onClick={() => handleSubmit} />
+
+          <span style={{ color: "white", textAlign: "center" }}>
+            No Backend for Login Services, Just Fill the Form
+          </span>
         </form>
         <form action="" className="login-form flex-col-start ">
           <h1>Create</h1>
@@ -77,6 +70,10 @@ function Login() {
             required
           />
           <BtnSubmit label="Create" onClick={() => handleSubmit} />
+
+          <span style={{ color: "white", textAlign: "center" }}>
+            Only MusixMatch Integration
+          </span>
         </form>
       </Container>
     </>
